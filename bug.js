@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Linking` API to handle deep links, especially when the app is launched from a background state or cold start.  The `Linking.getInitialURL()` promise might resolve to `null` even if a valid URL is passed during launch. This is inconsistent, as sometimes it works correctly.
